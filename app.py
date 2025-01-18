@@ -11,7 +11,7 @@ CLIENT_SECRET = os.getenv('ZOOM_CLIENT_SECRET', 'mvbN90eulvZ3kDXw1eIW1LhxS7Grh6z
 REDIRECT_URI = os.getenv('ZOOM_REDIRECT_URI', 'http://localhost:5000/callback')
 
 # Discord Webhook URL
-DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1329160606955208775/LLpKWCKgJCZc9DrRO_29Mse_buujvvfPsVJ_wrNDOuqB5xiaZismcCC-cbGl6sg_nl8K'
+DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1330304100927275068/i2TF7BmVHXgF8Ohw9L8XskWfOgxgain3Tr7XseS0rYdUJo5uLrgmAqodZF_91Q9ZYmXb'
 
 
 def send_discord_notification(meeting_details):
